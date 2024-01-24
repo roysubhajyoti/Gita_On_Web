@@ -1,10 +1,6 @@
 import PropTypes from "prop-types";
 // import { useGetsloka } from "../utils/useGetsloka";
 export const Getverse = ({ data }) => {
-  //   const { data } = useGetsloka();
-
-  //   console.log("Data in Getverse:", data);
-
   return (
     <div className="w-[500px] h-[500px] border-8 border-solid rounded-2xl border-transparent/10 flex flex-col gap-5 text-black">
       <div className="w-[470px] h-56 border-4 m-2 rounded-2xl border-transparent/10 backdrop-blur-sm shadow-lg">

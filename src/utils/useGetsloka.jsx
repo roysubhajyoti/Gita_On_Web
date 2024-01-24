@@ -9,7 +9,7 @@ export const useGetsloka = () => {
     try {
       const response = await fetch(`${GITA_API}${chapter}/${verse}`);
       const fetchedData = await response.json();
-      console.log("Fetched Data:", fetchedData);
+
       setData(fetchedData);
     } catch (error) {
       setError(error.message);
