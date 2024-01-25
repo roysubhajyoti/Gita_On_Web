@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useGetsloka } from "../utils/useGetsloka";
 import { Getverse } from "./Getverse";
 export const Getsloka = () => {
-  const [chapter, setChapter] = useState("");
-  const [verse, setVerse] = useState("");
+  const [chapter, setChapter] = useState(4);
+  const [verse, setVerse] = useState(7);
   const { data, fetchData } = useGetsloka();
 
   return (
